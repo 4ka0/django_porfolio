@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>All Projects</h1>
+        <div class="alert alert-success">These are all of my projects.</div>
+        {% for project in projects %}
+            <h3>TITLE: {{ project.title }}</h3>
+            <p>DESCRIPTION: {{ project.description }}</p>
+            <p>TECHNOLOGY: {{ project.technology }}</p>
+            <p>IMAGE: {{ project.image }}</p>
+        {% endfor %}
+    </body>
+</html>
