@@ -1,14 +1,12 @@
+'''
+Each function here represents a view.
+This is where the logic is set out for actions
+such as retrieving data from the database.
+'''
+
 from django.shortcuts import render
 from projects.models import Project
 
-# each function here represents a view
-# this is where the logic is set out for actions
-# such as retrieving data from the database 
-
-'''
-def project_list(request):
-    return render(request, 'projects/index.html')
-'''
 
 def all_projects(request):
     '''
@@ -20,6 +18,7 @@ def all_projects(request):
     # param 2 = the template to be used
     # param 3 = all project objects as a dict
     return render(request, 'projects/all_projects.html', {'projects': projects})
+
 
 def project_detail(request, pk):
     '''
