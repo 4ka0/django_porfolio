@@ -1,2 +1,5 @@
 Simple web app for displaying a portfolio of projects.<br/>
-(Real Python Django tutorial)
+Built using Django and Bootstrap.
+
+Based on the Real Python Django tutorial.
+(https://realpython.com/courses/django-portfolio-project/)
