@@ -11,15 +11,15 @@
             <div class="col-md-4">
                 <div class="card mb-4">
 
-                    <div class="card-header">
+                    <div class="card-header text-center">
                         <h5>{{ project.title }}</h5>
                     </div>
 
-                    <img class="card-img-top" src="{% static project.image %}" alt="{{ project.description }}" height="250">
+                    <img class="img-fluid mx-auto mt-4 mb-2" src="{% static project.image %}" alt="{{ project.description }}" width="120" height="120">
 
                     <div class="card-body">
                         <p class="card-text">{{ project.summary }}</p>
-                        <a href="{% url 'projects:project_detail' project.pk %}" class="btn btn-outline-primary">Read more</a>
+                        <a class="btn btn-outline-primary" href="{% url 'projects:project_detail' project.pk %}">Read more</a>
                     </div>
 
 
