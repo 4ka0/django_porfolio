@@ -16,7 +16,7 @@ def all_projects(request):
     projects = Project.objects.all()
     # param 1 = request
     # param 2 = the template to be used
-    # param 3 = all project objects as a dict
+    # param 3 = all projects object as a dict
     return render(request, 'projects/all_projects.html', {'projects': projects})
 
 
@@ -30,4 +30,3 @@ def project_detail(request, pk):
     # param 2 = the template to be used
     # param 3 = the individual project in question
     return render(request, 'projects/detail.html', {'project': project})
-    
