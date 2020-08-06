@@ -1,10 +1,18 @@
 body {
     background-color: #f8f9fa;
     padding-bottom: 70px;
+    position: relative;
+    min-height: 100vh;
 }
 
-footer {
-    position: fixed;
+/* Footer that sticks to the base of the page */
+.footer {
+    position: absolute;
+    right: 0;
+    left: 0;
     bottom: 0;
     width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
