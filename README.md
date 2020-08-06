@@ -5,3 +5,5 @@ Built using Django and styled using Bootstrap and a small amount of custom CSS.<
 Based on a [Real Python Django tutorial](https://realpython.com/courses/django-portfolio-project/).
 
 [Live demo](https://jjl-portfolio.herokuapp.com).
+
+![alt text](screenshot.png "Portfolio screenshot")
