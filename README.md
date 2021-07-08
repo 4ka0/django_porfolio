@@ -6,8 +6,6 @@ A simple web app for displaying a portfolio of projects, specifically a list vie
 
 Based on a [Django tutorial](https://realpython.com/courses/django-portfolio-project/) from the Real Python team.<br/>
 
-[Live demo](https://jjl-portfolio.herokuapp.com) (deployed on Heroku).
-
 ### Built using:
 
 * Python 3.7
